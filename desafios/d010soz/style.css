@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(174, 226, 139)
+    
+}
+
+h1{
+    font-family: 'idroid';
+
+}
+
+h2{
+    font-family: 'idroid';
+    background-color: rgba(159, 238, 159, 0.664);
+}
+
+p{
+    text-align: justify;
+}
+
+header{
+    color: white;
+    background-image: linear-gradient(to top, rgb(80, 77, 77), rgb(143, 212, 143));
+    height: 110px;
+    margin: 10px, 0px, 20px, 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header > h1{
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    font-family: 'idroid';
+}
+
+header > p{
+    display: inline-block;
+    margin-top: 0px;
+    padding-top: 0%;
+    text-align: center;
+}
+
+aside{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.menu{
+    text-align: left;
+    font-size: 10px;
+    display: inline-flex;
+}
+
+li{
+    margin-right: 6px;
+}
+
+main{
+    background-color: white;
+    margin-right: 92px;
+    margin-left: 95px;
+    border: 2px solid rgb(124, 161, 99);
+    box-shadow: 2px 2px 2px rgb(124, 161, 99);
+}
+
+.android{
+    margin-left: 220px;
+    align-content: center;
+}
+
+iframe{
+    margin-right: 92px;
+    margin-left: 95px;
+    border: 10px solid green;
+    border-left: 20px solid green;
+    border-right: 20px solid green;
+}
